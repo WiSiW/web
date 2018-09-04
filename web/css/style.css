@@ -1,0 +1,35 @@
+body{
+    margin: 0 0;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    background-color: #F1F3F7;
+}
+.main{
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 1200px;
+    background-color: #ffffff;
+}
+.pop{
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.pop-content{
+    margin: 0 auto;
+    margin-top: 20%;
+    background-color: #0055aa;
+}

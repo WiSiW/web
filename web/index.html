@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>目录列表</title>
+    <!--{% include 'web/pages/script.html' %}-->
+    <script>
+//        (function () {
+            window.version =+ new Date();
+            document.writeln("<link href='css/style.css?v=" + version +"' rel='stylesheet'/>");
+            document.writeln("<link href='css/index.css?v=" + version +"' rel='stylesheet'/>");
+            document.writeln("<script src='index.js?v=" + version +"'></scr" + "ipt>");
+//        })()
+    </script>
+</head>
+<body ng-controller="me.ctrl">
+    <div class="content">
+        <!--主视图-->
+        <!--<div class="main">-->
+            <!--<ul class="project-list">-->
+                <!--<li>-->
+                    <!--<img src="img/">-->
+                    <!--<div class="info">-->
+                        <!--<div title="项目名">项目名</div>-->
+                        <!--<div title="项目描述">dfasdfadsfa</div>-->
+                        <!--<div title="项目网络地址">url:<input value="http://www.wsw.com" readonly></div>-->
+                        <!--<div title="项目本地地址">localUrl:<input value="http://www.wsw.com" readonly><button>copy</button></div>-->
+                        <!--<button>详情</button>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    </div>
+
+    <!--弹出框-->
+    <div class="pop">
+        <div class="pop-content">
+            <div class="project-details">
+                <div class="project-details-title">项目详情</div>
+                <div class="project-details-img">
+                    <img src="img/" title="项目思维导图"/>
+                </div>
+                <div class="project-details-history">
+                    <ul>
+                        <li>
+                            <div class="create-time">2018/9/3 12:12:12</div>
+                            <div class="change-details">项目修改描述</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
